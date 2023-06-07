@@ -1,9 +1,0 @@
-name: BaseCreator
-version: 3.0
-main: me.xsenny_.basecreator.BaseCreator
-api-version: 1.19
-commands:
-  setup:
-    description: Setup the region.
-depend: [WorldEdit]
-
