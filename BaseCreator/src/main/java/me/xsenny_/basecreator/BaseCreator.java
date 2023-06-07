@@ -32,6 +32,7 @@ public final class BaseCreator extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         plugin = this;
+        //salut
         getConfig().options().copyDefaults(true);
         saveDefaultConfig();
         if (Bukkit.getPluginManager().getPlugin("WorldEdit") != null) {
